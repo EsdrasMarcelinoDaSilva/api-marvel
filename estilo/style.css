@@ -15,6 +15,9 @@ body{
 }
 header{
     height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 1px solid black;
     margin-bottom: 5px;
     background-image: linear-gradient(to right,#172d7baf,#1227596c,#228ac7);
@@ -53,6 +56,7 @@ aside img{
 img{
     display: flex;
     width: 150px;
+    height: 150px;
     border: 5px 5px solid black;
     border-radius: 6px 6px 6px 6px;
     box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.322);
