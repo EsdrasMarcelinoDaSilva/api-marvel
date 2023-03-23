@@ -25,9 +25,7 @@
     </footer>
 </body>
 <script>
-    const timestamp = '1637589823';
-    const apikey = '13d1cc09cb1e7b951e10cbfeb6258d8a';
-    const md5 = '9537c7938569686c8d12039f068f9d9a';
+    
     fetch(`http://gateway.marvel.com/v1/public/characters?ts=${timestamp}&apikey=${apikey}&hash=${md5}&limit=16`)
     .then((figuras) => {
         return figuras.json();
